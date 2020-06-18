@@ -6,7 +6,7 @@ function closeNav() {
     document.getElementById('mySideBar').style.width = '0';
 }
 
-function myFunction() {
+function lightSwitch() {
     document.body.classList.toggle('light-mode');
  }
 
