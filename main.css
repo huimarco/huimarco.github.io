@@ -1,0 +1,224 @@
+:root {
+  --primary: #121212;
+  --secondary: #262626;
+  --text: #d9d9d9;
+  --alttext: #8c8c8c;
+  --color: #BB86FC;
+  --button: #121212;
+}
+
+.light-mode{
+  --primary: #ffffff;
+  --secondary: #f2f2f2;
+  --text: #121212;
+  --alttext: #262626;
+  --color: #6200EE;
+  --button: #ffff99;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.center {
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+
+body {
+    background-color: var(--primary);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+  padding: 0px;
+  margin: 0px;
+}
+
+h2{
+  padding: 0px;
+  margin: 0px;
+}
+
+h3{
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  
+  font-size: 50px;
+}
+
+.sect1 {
+  background-color: var(--primary);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sect2 {
+  background-color: var(--primary);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card {
+  background-color: var(--secondary);
+  border-radius: 10px;
+  text-align: justify;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.smalltext {
+  font-size: 15px;
+  color: var(--alttext);
+  margin: 0px;
+}
+
+.sidebar {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--secondary);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--text);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--text);
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+}
+
+.openbtn:hover {
+  background-color: var(--secondary);
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+    color: var(--color);
+    text-decoration: none;
+}
+
+summary::-webkit-details-marker {
+  display: none
+  
+}
+
+summary {
+  outline: none;
+}
+
+summary:hover {
+  color: var(--color);
+  outline: none;
+}
+
+.eduicon {
+  border-radius: 10px;;
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  padding: 100px;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+.circle {
+  float: right;
+  padding: 0px;
+  outline: none;
+
+  height: 50px;
+  width: 50px;
+  background-color: var(--button);
+  border-radius: 50%;
+  border-style: solid;
+  border: none;
+}
+
+.circle:hover {
+  background-color: #262626
+}
+
+.hidden {
+  display: none;
+}
+
+.banner {
+  height: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+

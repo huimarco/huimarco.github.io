@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel='icon' href='favicon.ico'/>
+    <link rel='stylesheet' href='main.css'/>
+    <script src="main.js"></script>
+    <title>Marco Hui</title>
+  </head>
+  
+  <body>
+    <div id='mySideBar' class='sidebar'>
+      <a href="#">Item1</a>
+      <a href="#">Item2</a>
+      <a href="#">Item3</a>
+      <a href="#">Item4</a>
+    </div>
+    
+    <button class="openbtn" onclick='openNav()'>☰</button>
+    
+    <div class='main' onclick='closeNav()'> 
+      <header>
+        <h1>Hello, I am Marco. </h1>
+      </header>
+
+      <div id='about' class='sect1'>
+        <details>
+          <summary><h2>About Me</h2></summary>
+          <div class='card'>
+              I am a second year student at Claremont McKenna College pursuing an Economics and Computer Science major.
+              Currently exploring career opportunities in product management, marketing, and operations.
+            <div style="clear: both;"></div>
+          </div>
+        </details>
+      </div>
+
+      <div id='education' class='sect2'>
+        <details>
+          <summary><h2>Education</h2></summary>
+          <div class='card'>
+              <a href='https://www.cmc.edu/' target='_blank'><img class='alignleft eduicon' src='src/images/cmc.jpg'></a>
+            Bachelor of Arts, Economics and Computer Science <span class='alignright'>2018-2022</span>
+            <p class='smalltext'>Claremont McKenna College</p>
+          </div>
+          <div class='card'>
+              <a href='https://www.saschina.org/' target='_blank'><img class='alignleft eduicon' src='src/images/sas.jpg'></a>
+            International Baccalaureate Diploma <span class='alignright'>2016-2018</span>
+            <p class='smalltext'>Shanghai American School</p>
+          </div>
+          <div class='card'>
+              <a href='https://www.saschina.org/' target='_blank'><img class='alignleft eduicon' src='src/images/sas.jpg'></a>
+            High School Diploma <span class='alignright'>2014-2018</span>
+            <p class='smalltext'>Shanghai American School</p>
+          </div>
+        </details>
+      </div>
+
+      <div id='work' class='sect1'>
+        <details>
+          <summary><h2>Work Experiences</h2></summary>
+          <div class='card'>
+            <a href='https://brikclik.com/' target='_blank'>Brik+Clik</a>, New York City <span class='alignright'>Mar 2019 - Present</span>
+            <p class='smalltext'>Data Analyst Intern</p>
+            <ul>
+              <li>Conduct market research on the US retail space and present findings in bi-weekly deliverables to the CEO</li>
+              <li>Revamp company website and email marketing campaigns to drive user clicks</li>
+              <li>Manage data on existing marketing campaigns and produce actionable metrics report</li>
+              <li>Organize and extend the company contacts list with 800 entries to optimize efficiency of lead generation</li>
+              <li>Perform statistical analysis on company datasets to inform business initiatives</li>
+              <li>Support the launch of the first store (email marketing, store operations, business development)</li>
+            </ul>
+          </div>
+
+          <div class='card'>
+            <a href='https://www.cmc.edu/information-technology' target='_blank'>CMC Information Technology Services</a>, Claremont <span class='alignright'>Jun 2019 - Present</span>
+            <p class='smalltext'>Media Technology Assistant</p>
+            <ul>
+              <li>Provide on-site technology support to 8500 students and 3000 faculty for 8 hours per week on average during the academic year</li>
+              <li>Manage school-wide audio-visual equipment</li>
+            </ul>
+          </div>
+
+          <div class='card'>
+            <a href='https://www.milwaukeetool.asia/hk/en/' target='_blank'>Milwaukee Tool</a>, Hong Kong <span class='alignright'>Jun 2019 - Aug 2019</span>
+            <p class='smalltext'>Product Marketing Intern</p>
+            <ul>
+              <li>Collaborated with the products team to create a data-driven marketing proposal targeting Hong Kong</li>
+              <li>Led the production of 3 promotional videos for the M18 Cordless System that were shown to all Milwaukee Tool Asia offices within a two-week deadline</li>
+              <li>Adapted 45 marketing videos to the Asian market</li>
+              <li>Improved the company website to include additional features</li>
+            </ul>
+          </div>
+
+          <div class='card'>
+            <a href='https://laincubator.org/' target='_blank'>Los Angeles Cleantech Incubator</a>, Los Angeles <span class='alignright'>Jan 2019 - May 2019</span>
+            <p class='smalltext'>Student Fellow</p>
+            <ul>
+              <li>Undertook professional training in design thinking and prototyping tools</li>
+              <li>Designed and prototyped a sheltering device insulated by plastic waste with two other fellows to address the UN sustainable development goals</li>
+              <li>Pitched the final product to a panel of social entrepreneurs and obtained second place</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+
+      <div id='projects' class='sect2'>
+        <details>
+          <summary><h2>Projects</h2></summary>
+          <div class='card'>
+            <h3>McDonald's Corporation Financial Report</h3>
+            <p>
+              A 103-page report created to summarise 2019 financial statements for McDonald's Corporation and provide a detailed analysis of the its financial standing.
+              It covers company profitability, liquidity, financial flexibility, SWOT analysis, and ESG information. 
+              The report was completed with 3 other teammates and served as our capstone project for ECON 086.
+            </p>
+            <p>
+              Tools: Excel
+            </p>
+          </div>
+          <div class='card'>
+            <h3>MarcoBot</h3>
+            <p>
+              A Discord bot designed to auto manage guild roles. Given admin permissions, 
+              MarcoBot is able to add and remove roles in response to member status, messages, activity, etc.
+            </p>
+            <p>
+              Tools: Discord, Python (discord.py)
+            </p>
+          </div>
+          <div class='card'>
+            <h3>Personal Website</h3>
+            <p>
+              A website designed to land me an internship or job. It showcases both my personal and professional involvements. 
+              If you are reading this, it probably has not served its purpose yet.
+            </p>
+            <p>
+              Tools: HTML, CSS, JavaScript
+            </p>
+          </div>
+          <div class='card'>
+            <h3>Word Counter</h3>
+            <p>
+              An online tool designed to provide statistical insights on an inputted text passage.
+              It can currently count the number of words and the number of characters. 
+              I am working to include additional features (keyword density, sentiment analysis, etc.) in the future.
+              More importantly, this tool is designed to be aethetically pleasing, so I can avoid using the ugly, ad-ridden word counters online.
+            </p>
+            <p>
+              Tools: HTML, CSS, JavaScript
+            </p>
+          </div>
+          <div class='card'>
+            <h3>HK Housing</h3>
+            <p>
+              A graphic representation of housing prices in Hong Kong. Data will be collected through web scraping. 
+              It is still in development.
+            </p>
+            <p>
+              Tools: Python
+            </p>
+          </div>
+        </details>
+      </div>
+      
+      <div id='coursework' class='sect1'>
+        <details>
+          <summary><h2>Relevant Coursework</h2></summary>
+
+          <div class='row'>
+            <div class='column'>
+              <div class='card'>
+                @ <a href='https://www.cmc.edu/' target='_blank'>Claremont McKenna College</a>
+                <ul>
+                  <li>ECON 101 Intermediate Microeconomics</li>
+                  <li>ECON 102 Intermediate Macroeconomics</li>
+                  <li>ECON 120 Statistics</li>
+                  <li>ECON 086 Financial Accounting</li>
+                  <li>MATH 055 Discrete Mathematics</li>
+                  <li>MATH 060 Linear Algebra</li>
+                  <li>CSCI 036 Introduction to Data Science</li>
+                </ul>
+              </div>
+            </div>
+            <div class='column'>
+              <div class='card'>
+                @ <a href='https://www.hmc.edu/' target='_blank'>Harvey Mudd College</a>
+                <ul>
+                  <li>CS 05 Introduction to Computer Science</li>
+                  <li>CS 60 Principles of Computer Science / Data Structures</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </details>
+      </div>
+
+      <div id='interests' class='sect2'>
+        <details>
+          <summary><h2>Interests</h2></summary>
+          <div class='card'>
+
+          </div>
+        </details>
+      </div>
+
+    </div>
+
+    <footer>
+      <div>
+      <a href='https://www.linkedin.com/in/marcohui/' target='_blank'><img class='icon' src='src/images/linkedin.png' width='50' height='50'></a>
+      <a href='https://github.com/huimarco' target='_blank'><img class='icon' src='src/images/github.png' width='50' height='50'></a>
+      <a href='https://www.instagram.com/marco.png/' target='_blank'><img class='icon' src='src/images/instagram.png' width='50' height='50'></a>
+      <a href='mailto:khui22@cmc.edu' target='_blank'><img class='icon' src='src/images/email.png' width='50' height='50'></a>
+      <button class='circle' onclick="lightSwitch()"></button></div>
+    </footer>
+
+    
+    
+
+  </body>
+
+</html>
+
+
