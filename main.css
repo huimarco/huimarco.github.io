@@ -222,3 +222,25 @@ footer {
   overflow: hidden;
 }
 
+textarea {
+  width: 90%;
+  height: 250px;
+  padding: 20px;
+  outline: none;
+  border: solid;
+
+  background: var(--secondary);
+  color: var(--text);
+
+  resize: none;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.output {
+  width: 90%;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: solid;
+}
