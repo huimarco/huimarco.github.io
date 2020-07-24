@@ -1,19 +1,19 @@
 :root {
-  --primary: #121212;
-  --secondary: #262626;
-  --text: #d9d9d9;
-  --alttext: #8c8c8c;
-  --color: #BB86FC;
-  --button: #121212;
-}
-
-.light-mode{
   --primary: #ffffff;
   --secondary: #f2f2f2;
   --text: #121212;
   --alttext: #262626;
   --color: #6200EE;
   --button: #ffff99;
+}
+
+.light-mode{
+ --primary: #121212;
+ --secondary: #262626;
+ --text: #d9d9d9;
+ --alttext: #8c8c8c;
+ --color: #BB86FC;
+ --button: #121212;
 }
 
 .alignleft {
