@@ -1,5 +1,5 @@
 :root {
-  --primary: #ffffff;
+  --primary: #FFEED6;
   --secondary: #f2f2f2;
   --text: #121212;
   --alttext: #262626;
@@ -7,12 +7,12 @@
   --button: #ffff99;
 }
 
-.light-mode{
+.dark-mode{
  --primary: #121212;
  --secondary: #262626;
  --text: #d9d9d9;
  --alttext: #8c8c8c;
- --color: #BB86FC;
+ --color: #c7fc86;
  --button: #121212;
 }
 
